@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300);
 * {
-  margin: 0;
-  padding: 0;
+  margin: 40;
+  padding: 40;
   box-sizing: border-box;
   border: 5px;
 }
@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
   width: 28rem;
@@ -22,6 +22,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.heading {
+    background-color: black;
+    font-display: white;
+    font-style: oblique;
+    text-align: center;
 }
 #top {
   top: -0.4rem;
@@ -53,4 +59,10 @@ h4 {
   padding: 1.25rem 2.5rem;
   width: 21.87rem;
   height: 8.1rem;
+}
+.footer-content {
+    background-color: blanchedalmond;
+    text-decoration: underline;
+    font-style: oblique;
+    text-align: center;
 }
